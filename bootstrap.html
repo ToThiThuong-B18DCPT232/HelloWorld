@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+
+</head>
+
+<body>
+    <div class="container1">
+        <div class="header">
+            <div class="col-lg-12">
+               
+                    <a class="navbar-brand" href="#">Bài Tập 1</a>
+
+
+
+                </nav>
+            </div>
+        </div>
+
+        <div class="body1">
+            <div class="col-lg-2">Menu</div>
+            <div class="col-lg-10">
+                <div class="col-lg-12">
+                    <h1>Đăng ký thông tin</h1>
+                </div>
+                <form>
+                    <div class="form-group row">
+                        <p>Usename</p>
+                        <div class="col-lg-5">
+                            <input type="textarea" class="form-control" placeholder="Enter usename">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <p>Email</p>
+                        <div class="col-lg-5">
+                            <input type="email" class="form-control" placeholder="Enter email">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <p>Password</p>
+                        <div class="col-lg-5">
+                            <input type="password" class="form-control" placeholder="Enter password">
+                        </div>
+                    </div>
+                    <div class="date">
+                        <p>Ngày sinh</p>
+
+                        <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01"
+                            max="2021-09-31">
+                    </div>
+
+                    <div class="gender">
+                        <p>Giới tính</p>
+                        <form>
+                            <input type="radio" id="Nam" name="fav_language" value="Nam">
+                            <label for="html">Nam</label><br>
+                            <input type="radio" id="Nữ" name="fav_language" value="Nữ">
+                            <label for="css">Nữ</label><br>
+
+                        </form>
+                    </div>
+
+                    <div class="Tanhpho">
+                        <p>Thành Phố</p>
+                        <form action="action_page.php">
+                            <input list="browsers" name="browser">
+                            <datalist id="browsers">
+                            	<option value="===">
+                                <option value="Hà Nội">
+                                <option value="Hồ Chí Minh">
+                                <option value="Đà Nẵng">
+                                <option value="Thái Bình">
+                                <option value="Phú Thọ">
+                                <option value="Nam Định">
+                                <option value="Hải Phòng">
+                                <option value="Lạng Sơn">
+                                <option value="Hà Giang">
+
+                            </datalist>
+
+                        </form>
+                    </div>
+
+                    <div class="So thich">
+                        <p>Sở thích</p>
+                        <form>
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1">Đi chơi</label><br>
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2"> Du lịch</label><br>
+
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3"> Ăn uống</label><br>
+                            <input type="checkbox" id="vehicle2" name="vehicle4" value="Onfoot">
+                            <label for="vehicle4"> Mua sắm</label>
+                        </form>
+                    </div>
+
+                    <div class="submit">
+                    	<p>Mô tả bản thân</p>
+                       <textarea name="" id="" cols="50" rows="10"></textarea><br>
+                      <button>Submit</button>
+                      <button>Reset</button>
+                    </div>
+                    <div class="link">
+                        <div class="google">          
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14901.454424631565!2d105.79380725!3d20.978057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1632472458562!5m2!1svi!2s" width="1000px" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="facebook">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsoobin.109&tabs&width=340&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="1000" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            
+                        </div>
+            
+            
+                    </div>  
+
+                   
+
+                   
+            </div>
+        </div>
+        <div class="footer">
+        	 <p>Giới thiệu bản thân<br>
+            <a href="Mailto:soobin@gmail.com">soobin@gmail.com</a></p>
+           
+        </div>
+     
+       
+      
+       
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+       
+</body>
+
+</html>
